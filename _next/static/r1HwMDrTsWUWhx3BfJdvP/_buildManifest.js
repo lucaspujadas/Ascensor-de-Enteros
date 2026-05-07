@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/Ascensor-de-Enteros//_next/:path+",
+        "destination": "/Ascensor-de-Enteros/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
